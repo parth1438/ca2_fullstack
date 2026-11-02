@@ -1,0 +1,27 @@
+{
+  "name": "ca2fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parth1438/ca2_fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parth1438/ca2_fullstack/issues"
+  },
+  "homepage": "https://github.com/parth1438/ca2_fullstack#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
+}
