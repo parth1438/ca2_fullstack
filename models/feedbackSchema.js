@@ -25,6 +25,10 @@ const feedbackSchema = new mongoose.Schema({
     rating : {
         type : Number,
         required : [true, 'should be between 1 to 5'],
+    },
+    status : {
+        type : Boolean,
+        default : true
     }
 }, 
  {timestamps : true}
